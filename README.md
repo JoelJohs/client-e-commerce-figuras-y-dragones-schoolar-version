@@ -1,8 +1,9 @@
-# React + Vite
+# E-commerce client side - Schoolar Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project is an individual practice exercise to apply all my previous lessons while also serving as a school project. Although the repository currently lacks relevant content, I wanted to get a head start.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Branch Information
+
+Please note that the `route-config` branch was created solely for practice purposes, including branch management and pull request workflows. It does not contain any production code and should not be used for development or deployment.
