@@ -11,35 +11,33 @@ export default {
           navtext: {
             primary: "#ffffff",
             secondary: "#1a1a1a",
-            hover: "#e0e0e0",
-            secondaryHover: "#393969",
-            button: {
-              primary: "#e57373",
-              primaryHover: "#d04a4a",
-              secondary: "#256a73",
-              secondaryHover: "#1b5a66",
-            },
-            text: {
-              primary: "#04313f",
-              secondary: "#b0b7b5",
-              hover: "#256a73",
-            },
-            border: "#b0b7b5",
-            shadow: "#d1d1d1",
-            accent: {
-              primary: "#63ae95",
-              secondary: "#e57373",
-            },
+            hover: "#393969",
+          },
+          button: {
+            primary: "#e57373",
+            primaryHover: "#d04a4a",
+            secondary: "#256a73",
+            secondaryHover: "#1b5a66",
+          },
+          text: {
+            primary: "#04313f",
+            secondary: "#b0b7b5",
+            hover: "#256a73",
+          },
+          border: "#b0b7b5",
+          shadow: "#d1d1d1",
+          accent: {
+            primary: "#63ae95",
+            secondary: "#e57373",
           },
         },
         dark: {
-          navbar: "#1f4d3f",
-          navbarTop: "#2f6d5f",
+          navbar: "#2c3e50",
+          navbarTop: "#34495e",
           navtext: {
             primary: "#ffffff",
             secondary: "#e0e0e0",
-            hover: "#e0e0e0",
-            secondaryHover: "#fff",
+            hover: "#256a73",
           },
           button: {
             primary: "#b83e3e",
@@ -48,7 +46,7 @@ export default {
             secondaryHover: "#102a33",
           },
           text: {
-            primary: "#e2d8b8",
+            primary: "#ffffff", // Changed to white
             secondary: "#b0b7b5",
             hover: "#e2d8b8",
           },

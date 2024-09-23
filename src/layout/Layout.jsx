@@ -7,7 +7,7 @@ const Layout = () => {
   const { isDark } = useThemeStore();
 
   return (
-    <div className={isDark ? "dark" : ""}>
+    <div className={`w-full ${isDark ? "dark" : ""}`}>
       {/* Navbar  */}
       <nav>
         <TopNavbar />
