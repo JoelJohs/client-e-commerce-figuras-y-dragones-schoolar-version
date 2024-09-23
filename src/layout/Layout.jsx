@@ -16,7 +16,7 @@ const Layout = () => {
       </nav>
 
       {/* Outlet */}
-      <main>
+      <main className="bg-light-gradient dark:bg-dark-gradient">
         <Outlet />
       </main>
 

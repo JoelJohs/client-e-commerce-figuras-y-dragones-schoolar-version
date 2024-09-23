@@ -150,3 +150,37 @@ export function GithubIcon(props) {
     </svg>
   );
 }
+
+export function RightRowIcon(props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="0.67em"
+      height="1em"
+      viewBox="0 0 475 717"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="M248 361L2 115L121 0l354 355l-363 362L0 606z"
+      />
+    </svg>
+  );
+}
+
+export function LeftRowIcon(props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="0.67em"
+      height="1em"
+      viewBox="0 0 475 717"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="m227 357l246 246l-119 114L0 363L362 0l113 112z"
+      />
+    </svg>
+  );
+}
