@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isHidden, setIsHidden] = useState(true);
 
   return (
-    <nav className="relative bg-light-navbar dark:bg-dark-navbar text-light-navtext-primary dark:text-light-dark-navtext-primary shadow-lg shadow-light-shadow dark:shadow-dark-shadow">
+    < >
       <div className="flex justify-between items-center py-4 px-8">
         <div className="w-16 md:w-20">
           <Link to="/">
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </>
   );
 };
 
